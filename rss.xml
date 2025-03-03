@@ -1,4 +1,163 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diffence Bio RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 Mar 2025 17:00:03 GMT</lastBuildDate><item><title><![CDATA[Java ORM Framework Comparison]]></title><description><![CDATA[Framework Type JPA Support Database Support Learning Curve Performance SQL Control Code Generation Caching Pros & Cons Use Cases Hibernate…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/orm/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/orm/</guid><pubDate>Thu, 27 Feb 2025 01:40:32 GMT</pubDate><content:encoded>&lt;table&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diffence Bio RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Mar 2025 17:29:55 GMT</lastBuildDate><item><title><![CDATA[Valkey vs Redis Technical Comparison]]></title><description><![CDATA[1. Architecture Design Redis In-Memory Storage: Redis primarily stores data in memory, resulting in extremely low read/write latency. Data…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/valkey&amp;redis/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/valkey&amp;redis/</guid><pubDate>Tue, 04 Mar 2025 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; width: 100%; margin: 2em 0;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5cf370ad12c661cedd35c20b3614ac18/cecd0/vks.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.400000000000006%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAGB5noHMQ1//8QAGBAAAgMAAAAAAAAAAAAAAAAAAAECETH/2gAIAQEAAQUCjQnBjoWLT//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/Aaf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAABEAARIf/aAAgBAQAGPwKEa6X/xAAZEAADAQEBAAAAAAAAAAAAAAAAARFBITH/2gAIAQEAAT8hq+jiHGkXxM02HvgrbZ//2gAMAwEAAgADAAAAEAjv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/ENMF/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EFCo/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFxgf/aAAgBAQABPxC8EtvwlHh6sb5BV+kGEEDhswLoWvLmgXGp/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;battle&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5cf370ad12c661cedd35c20b3614ac18/a2510/vks.jpg&quot;
+        srcset=&quot;/static/5cf370ad12c661cedd35c20b3614ac18/0479a/vks.jpg 250w,
+/static/5cf370ad12c661cedd35c20b3614ac18/41099/vks.jpg 500w,
+/static/5cf370ad12c661cedd35c20b3614ac18/a2510/vks.jpg 1000w,
+/static/5cf370ad12c661cedd35c20b3614ac18/c58a3/vks.jpg 1500w,
+/static/5cf370ad12c661cedd35c20b3614ac18/3acf0/vks.jpg 2000w,
+/static/5cf370ad12c661cedd35c20b3614ac18/cecd0/vks.jpg 5120w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;1. Architecture Design&lt;/h2&gt;
+&lt;h3&gt;Redis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;In-Memory Storage&lt;/strong&gt;: Redis primarily stores data in memory, resulting in extremely low read/write latency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Persistence&lt;/strong&gt;: It supports both RDB snapshots and AOF logs, allowing flexible switching between memory and disk storage.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rich Data Types&lt;/strong&gt;: Redis offers a variety of data structures, including strings, lists, sets, sorted sets, hashes, bitmaps, HyperLogLog, and geospatial indexes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Single-Threaded Model&lt;/strong&gt;: By using a single-threaded event loop, Redis ensures atomic operations and avoids concurrency conflicts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Replication and Clustering&lt;/strong&gt;: It supports master–slave replication, sentinel mode, and cluster architecture, making it suitable for high availability and distributed environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ValkeyDB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Memory Mapping and Disk Persistence&lt;/strong&gt;: ValkeyDB uses memory mapping (mmap) to directly access disk data, balancing in-memory performance with persistence needs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lightweight Design&lt;/strong&gt;: It strikes a balance between data persistence and fast access, making it ideal for scenarios with large data volumes that require efficient disk reads.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplified Data Model&lt;/strong&gt;: Compared to Redis’s rich set of data types, ValkeyDB focuses on efficient key–value storage and fast querying.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. Performance Metrics&lt;/h2&gt;
+&lt;h3&gt;Throughput&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Redis&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read Operations&lt;/strong&gt;: In a typical single-node environment, Redis can achieve 100k–200k operations per second.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write Operations&lt;/strong&gt;: Write throughput is generally between 80k–150k operations per second, depending on the persistence configuration and data scale.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ValkeyDB&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read Operations&lt;/strong&gt;: In persistent mode, ValkeyDB’s read throughput is usually around 100k–150k operations per second.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write Operations&lt;/strong&gt;: Write throughput ranges from 80k to 120k operations per second, slightly lower than Redis due to disk synchronization and consistency requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Latency&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Redis&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Since operations are entirely in memory, read/write latency typically ranges from 0.1 to 1 ms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ValkeyDB&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Read latency is generally between 0.5 to 1 ms, and write latency falls between 1 to 2 ms, slightly higher than pure in-memory operations due to disk I/O.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. Data Consistency and Persistence&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Redis&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Supports both RDB snapshots and AOF logs, ensuring high availability and disaster recovery.&lt;/li&gt;
+&lt;li&gt;Data is entirely stored in memory, making it suitable for applications with extremely high responsiveness requirements, although memory capacity can be a limitation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ValkeyDB&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Uses memory mapping to directly access disk data, providing inherent advantages in persistence and data recovery.&lt;/li&gt;
+&lt;li&gt;More suitable for scenarios with large data volumes and high requirements for data consistency and efficient disk reads.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. Use Cases and Applicability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Redis Use Cases&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Caching&lt;/strong&gt;: With its extremely low latency and high throughput, Redis is commonly used to cache hot data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Data Processing&lt;/strong&gt;: Ideal for message queues, real-time leaderboards, session management, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distributed Locks and Counters&lt;/strong&gt;: Its single-threaded model and rich data types make Redis excellent for implementing distributed locks and counters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ValkeyDB Use Cases&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Large-Scale Data Storage&lt;/strong&gt;: When data volumes exceed available memory, ValkeyDB’s direct disk access via memory mapping offers better scalability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High Persistence Requirements&lt;/strong&gt;: Suitable for applications that demand high data consistency and persistence.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost-Effective Deployment&lt;/strong&gt;: Provides a balanced solution for environments where upgrading hardware memory is not feasible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5. Summary&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Metric&lt;/th&gt;
+&lt;th&gt;Redis&lt;/th&gt;
+&lt;th&gt;ValkeyDB&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Architecture&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;In-memory storage, rich data types, single-threaded event model&lt;/td&gt;
+&lt;td&gt;Memory mapping + disk persistence, lightweight key–value storage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Read Throughput&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;100k–200k ops/sec&lt;/td&gt;
+&lt;td&gt;100k–150k ops/sec&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Write Throughput&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;80k–150k ops/sec&lt;/td&gt;
+&lt;td&gt;80k–120k ops/sec&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Read Latency&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;0.1–1 ms&lt;/td&gt;
+&lt;td&gt;0.5–1 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Write Latency&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;1–2 ms&lt;/td&gt;
+&lt;td&gt;1–2 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Persistence&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;RDB and AOF, hybrid in-memory and disk storage&lt;/td&gt;
+&lt;td&gt;Direct disk access via memory mapping&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Caching, real-time processing, distributed locks&lt;/td&gt;
+&lt;td&gt;Large-scale storage, high persistence needs, resource-constrained environments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Redis, with its extremely high throughput and very low latency, is ideal for in-memory caching scenarios where response time is critical. In contrast, ValkeyDB offers a more cost-effective solution for scenarios with large data volumes that require efficient persistence and direct disk-based reads.&lt;/p&gt;
+&lt;p&gt;In practice, the choice should be based on the specific requirements, data scale, and hardware configuration of your application. It is even advisable to conduct benchmark tests in the target environment to determine the optimal solution.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Java ORM Framework Comparison]]></title><description><![CDATA[Framework Type JPA Support Database Support Learning Curve Performance SQL Control Code Generation Caching Pros & Cons Use Cases Hibernate…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/orm/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/orm/</guid><pubDate>Thu, 27 Feb 2025 01:40:32 GMT</pubDate><content:encoded>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Framework&lt;/th&gt;
@@ -546,13 +705,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
 &lt;li&gt;High throughput, stream processing, or long-term data retention (e.g., log aggregation, real-time analytics).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that &quot;despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.&quot;?
-(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn&apos;t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I'm sure I'll write a lot more interesting things in the future. Oh, and here's a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I'm sure I'll write a lot more interesting things in the future. Oh, and here's a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I&apos;m sure I&apos;ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here&apos;s a great quote from this Wikipedia on
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
@@ -567,7 +720,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; width: 100%; margin: 2em 0;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -578,20 +731,20 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERIy/9oACAEBAAEFAkqW7B5Zox9t8n//xAAXEQEAAwAAAAAAAAAAAAAAAAAAERJB/9oACAEDAQE/AdVl/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEC/9oACAECAQE/AYun/8QAGxAAAQQDAAAAAAAAAAAAAAAAAAECESEiMTL/2gAIAQEABj8CvRjaHMkvIQo//8QAGxAAAwEBAAMAAAAAAAAAAAAAAREhAEGBobH/2gAIAQEAAT8hsTTH203YINmYDPHckkPzQiGHv//aAAwDAQACAAMAAAAQyC//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EBHDK6y//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAhUf/aAAgBAgEBPxA6hNC//8QAHBABAQACAwEBAAAAAAAAAAAAAREAMSFhgUHh/9oACAEBAAE/EEbOLQ0eYOEu0eQv0RxZl4JUnWRxGhWneURhyeMTUgiXf5M//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 75.2%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERIy/9oACAEBAAEFAkqW7B5Zox9t8n//xAAXEQEAAwAAAAAAAAAAAAAAAAAAERJB/9oACAEDAQE/AdVl/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEC/9oACAECAQE/AYun/8QAGxAAAQQDAAAAAAAAAAAAAAAAAAECESEiMTL/2gAIAQEABj8CvRjaHMkvIQo//8QAGxAAAwEBAAMAAAAAAAAAAAAAAREhAEGBobH/2gAIAQEAAT8hsTTH203YINmYDPHckkPzQiGHv//aAAwDAQACAAMAAAAQyC//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EBHDK6y//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAhUf/aAAgBAgEBPxA6hNC//8QAHBABAQACAwEBAAAAAAAAAAAAAREAMSFhgUHh/9oACAEBAAE/EEbOLQ0eYOEu0eQv0RxZl4JUnWRxGhWneURhyeMTUgiXf5M//9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
-/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
-/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
-/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
-/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a2510/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/0479a/salty_egg.jpg 250w,
+/static/8058f3f26913fea3b6a89a73344fe94a/41099/salty_egg.jpg 500w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a2510/salty_egg.jpg 1000w,
+/static/8058f3f26913fea3b6a89a73344fe94a/c58a3/salty_egg.jpg 1500w,
+/static/8058f3f26913fea3b6a89a73344fe94a/3acf0/salty_egg.jpg 2000w,
 /static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
